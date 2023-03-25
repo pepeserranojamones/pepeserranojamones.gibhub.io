@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    font-family:'Courier New', Courier, monospace ;
+
+}
+.header {background-image: url(./imagen/jamon3.jpg)
+    ;background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: 10PX;
+    display: flex;
+    justify-content: space-between;
+    align-items:self-start;
+    height: 400px; 
+    width: 100%;  
+    padding: 7px;
+    -webkit-text-stroke: 1px black;
+
+}
+
+.header .navegador{
+list-style: none;
+
+}
+.header .navegador li{
+    display: inline;
+    padding: 0 10px;
+}
+.header .navegador a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#TITULO {font-size: 90px;
+         color:white;
+         -webkit-text-stroke: 3px black;
+         font-style: italic;
+         text-align: center;
+         margin-left: 850px;
+         padding-top: 150px
+         
+        }
+
+        .descuento{background-color: gainsboro;
+            background-size: cover;
+            height: 967px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 30px;
+            border: 1px solid;
+            color: black;
+            text-align: center;
+            padding-top: 20px;}
+            table{
+            margin-top: 50px;
+            caption-side: bottom;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+            }
+            td,th{
+                
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                font-size: 25px;
+            }
+            caption{
+                padding-top: 20px;
+                font-style: italic;
+            }
+            #tb {
+                font-size: 30px;
+                font-weight: bolder;
+                
+            }
+            hd {width: 200px;
+            height: auto;}
+        

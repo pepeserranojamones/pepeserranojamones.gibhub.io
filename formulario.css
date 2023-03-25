@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    font-family:'Courier New', Courier, monospace ;
+
+}
+.header {background-image: url(./imagen/jamon3.jpg)
+    ;background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: 10PX;
+    display: flex;
+    justify-content: space-between;
+    align-items:self-start;
+    height: 400px; 
+    width: 100%;  
+    padding: 7px;
+    -webkit-text-stroke: 1px black;
+
+}
+
+.header .navegador{
+list-style: none;
+
+}
+.header .navegador li{
+    display: inline;
+    padding: 0 10px;
+}
+.header .navegador a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#TITULO {font-size: 90px;
+         color:white;
+         -webkit-text-stroke: 3px black;
+         font-style: italic;
+         text-align: center;
+         margin-right: 150 px;
+         padding-top: 150px;
+         margin-left: 1350px;
+         
+         
+        }
+        #formulario{
+            font-size: 50px;
+            text-align: center;
+            margin-top: 15px;
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-color: black;}
+        .form{
+            font-size: 30px;
+            font-weight: bold;
+
+            text-align: center;
+
+        }
+        #in { width: 300px;height: 40px; ;}
+        #ms {width: 700px; height: 300px;}
+            
+        
+
+
+
+        
+            
+
+
+
+       
